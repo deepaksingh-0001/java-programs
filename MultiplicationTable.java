@@ -4,7 +4,7 @@ import java.util.Scanner;
  * Program Name: Tables
  * Description : Prints multiplication table of a given number.
  */
-public class Tables {
+public class MultiplicationTable {
 
     public static void main(String[] args) {
 
