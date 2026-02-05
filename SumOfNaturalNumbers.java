@@ -1,21 +1,36 @@
-//sum of n natural numbers
-
 import java.util.Scanner;
-public class SumOf_N
-{
-    public static void main(String[] args) 
-    {
-        Scanner sc=new Scanner(System.in);
 
-        System.out.println("enter a number: ");
-        int n=sc.nextInt();
-        int sum=0;
+/*
+ * Program Name: SumOfNaturalNumbers
+ * Description : Calculates the sum of first N natural numbers.
+ */
+public class SumOfNaturalNumbers {
 
-        for(int i=1; i<=n; i++)
-        {
-            sum=sum+i;
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        // Taking input from user
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+
+        // Validating input
+        if (n <= 0) {
+            System.out.println("Please enter a positive natural number.");
+        } else {
+
+            int sum = 0;
+
+            // Calculating sum of first N natural numbers
+            for (int i = 1; i <= n; i++) {
+                sum += i;
+            }
+
+            // Displaying result
+            System.out.println("Sum of first " + n + " natural numbers is: " + sum);
         }
-        System.out.println("the sum of N natural number is: "+sum);
+
+        // Closing scanner
         sc.close();
     }
 }
