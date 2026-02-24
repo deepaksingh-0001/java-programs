@@ -1,9 +1,6 @@
-import java.util.Scanner;
+//Program Swaps two numbers without using a third variable.
 
-/*
- * Program Name: Swapping
- * Description : Swaps two numbers without using a third variable.
- */
+import java.util.Scanner;
 public class Swapping 
 {
 
