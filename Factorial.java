@@ -1,10 +1,5 @@
+//Program to Calculates the factorial of a given number using a for loop.
 import java.util.Scanner;
-
-/*
- * Program Name: Factorial
- * Description : Calculates the factorial of a given number
- *               using a for loop.
- */
 public class Factorial {
 
     public static void main(String[] args) {
