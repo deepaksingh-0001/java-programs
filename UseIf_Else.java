@@ -1,10 +1,6 @@
-import java.util.Scanner;
+//java Program Checks whether a person is an adult based on the given age using if-else.
 
-/*
- * Program Name: UseIfElse
- * Description : Checks whether a person is an adult
- *               based on the given age using if-else.
- */
+import java.util.Scanner;
 public class UseIf_Else {
 
     public static void main(String[] args) {
